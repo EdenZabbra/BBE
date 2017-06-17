@@ -1,0 +1,41 @@
+ header,
+ footer {
+     color: whitesmoke;
+     font-family: 'Architects Daughter', cursive;
+ }
+ 
+ .myBody {
+     font-family: 'Playfair Display SC', serif;
+ }
+ 
+ .img-resize-on-hover:hover {
+     transform: scale(0.9);
+ }
+ 
+ body {
+     background-color: #E3F2FD;
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+     #songProvide {
+         bottom: -7rem;
+     }
+ }
+ 
+ @media (min-width: 992px) {
+     #songProvide {
+         bottom: -10rem;
+     }
+ }
+ /*Small Devices 544px/34em >= and < 768px/48em*/
+ 
+ @media (max-width: 991px) {
+     table .btn {
+         font-size: 0.75rem;
+         font-size: 3.5vw;
+     }
+     #footerLogo {
+         height: 42%;
+         width: 42%;
+     }
+ }
