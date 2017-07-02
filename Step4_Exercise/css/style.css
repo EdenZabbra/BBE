@@ -1,0 +1,188 @@
+/*Step4 Exercise: Landing Page for a Mobile Application*/
+
+
+/*---Fonts---*/
+
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Rock+Salt');
+
+/*---End Fonts---*/
+
+
+/*---Media Queries*/
+
+@media (max-width: 767px) {
+    div#nav-menu ul li a {
+        font-size: 17px !important;
+    }
+    div#nav-menu.collapse.in {
+        border: none !important;
+    }
+    div#nav-menu.collapse.in li:hover {
+        background-color: #009688;
+    }
+    div#firstRowText {
+        margin-left: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    div#nav-menu ul li {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    div#nav-menu ul li a {
+        font-size: 17px !important;
+    }
+    section#firstRow div.container {
+        margin-left: 80px !important;
+    }
+    div#secondRowText {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    div#nav-menu ul li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div#nav-menu ul li a {
+        font-size: 20px !important;
+    }
+    div#secondRowText {
+        margin-top: 120px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    div#nav-menu ul li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div#nav-menu ul li a {
+        font-size: 25px !important;
+    }
+    section#firstRow div.container {
+        margin-left: 130px !important;
+    }
+    div#firstRowText {
+        margin-top: 70px;
+    }
+    div#secondRowText {
+        margin-top: 120px;
+        font-size: 20px;
+    }
+}
+
+
+/*---End Media Queries---*/
+
+div.navbar-header {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5rem;
+    color: white !important;
+    margin-top: 4px;
+}
+
+div#nav-menu.collapse.in {
+    margin-bottom: 100%;
+}
+
+a.navbar-brand {
+    color: white !important;
+}
+
+nav {
+    background-color: #1DE9B6 !important;
+}
+
+nav.navbar {
+    min-height: 120px !important;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+div#nav-menu {
+    padding-top: 25px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+section#firstRow {
+    margin-top: 140px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+section#firstRow ul li a {
+    color: #1DE9B6;
+    font-size: 20px;
+}
+
+section#firstRow ul li {
+    margin-top: 28px;
+}
+
+section#secondRow {
+    background-color: #CFD8DC;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+section#features .feature {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+section#features {
+    font-family: 'Bubblegum Sans', cursive;
+    background-color: #B0BEC5;
+}
+
+section#features h3 {
+    font-size: 47px;
+}
+
+section#features .feature {
+    font-size: 20px;
+}
+
+section#features .feature:hover {
+    color: #00BFA5;
+}
+
+section#otherInfo {
+    background-color: #37474F;
+    font-family: 'Bubblegum Sans', cursive;
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 5px;
+}
+
+section#otherInfo h4 {
+    color: #F5F5F5;
+}
+
+footer {
+    background-color: #263238;
+    font-family: 'Bubblegum Sans', cursive;
+    color: white;
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 5px;
+}
